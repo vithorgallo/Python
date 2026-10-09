@@ -1,0 +1,13 @@
+nome = str(input("Digite o nome:")).strip()
+
+print("--- Manipulando Strings ---")
+print(f"Nome em Maisculas:{nome.upper()}")
+print(f"Nome em Minusculos:{nome.lower()}")
+print(f"Quantidade de Caracteres:{len(nome)}")
+print(f"Quantidade de Letras:{len(nome.replace(' ',''))}")
+print(f"Primeira Letra:{nome[0]}")
+print(f"Ultima Letra:{nome[-1]}")
+print(f"Quantidade de Nomes:{len(nome.split())}")
+nomes = nome.split()
+print(f"Primeiro nome:{nomes[0]}")
+print(f"Ultimo nome:{nomes[-1]}")
